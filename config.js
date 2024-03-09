@@ -20,7 +20,7 @@ App.resetCss();
 App.applyCss(`${css}`);
 
 // Exporting the window
-export default {
+App.config({
   style: css,
   windows: [MenuW()],
-};
+});
