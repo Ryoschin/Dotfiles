@@ -1,0 +1,541 @@
+.menu {
+  all: unset;
+  // font-family: serif;
+  font-stretch: semi-condensed;
+  // font-weight: bold;
+
+  .background {
+    background-size: f(1375);
+    opacity: 1;
+  }
+
+  .menu-bottom {
+    all: unset;
+    // background: #474d50;
+    font-stretch: semi-condensed;
+  }
+
+  // .menu-bx {
+  //   margin: w(125) w(75) w(125) w(75);
+  // }
+
+  .box-one {
+    background: transparent;
+    margin-right: w(150);
+  }
+
+  .box-two {
+    margin-left: w(-135);
+    margin-right: w(-135);
+  }
+
+  .box-three {
+    margin-left: w(150);
+  }
+
+  .profile {
+    background-color: $menu-theme;
+    border-radius: f(15);
+    margin-bottom: h(-30);
+  }
+
+  .picture {
+    // border-radius: 100%;
+    margin-top: h(50);
+    background-size: f(150);
+    min-width: w(150);
+    min-height: h(130);
+  }
+
+  .system-name {
+    color: #d46389;
+    font-size: f(20);
+    font-weight: bold;
+    margin-top: h(-15);
+  }
+
+  .user-name {
+    color: white; // #8fbcbb
+    margin-top: h(-40);
+  }
+
+  .system {
+    background: $menu-theme;
+    border-radius: f(15);
+    margin-top: h(45);
+  }
+
+  .system-holder {
+    margin: h(25) w(20) h(25) w(5);
+  }
+
+  .cpu-icon {
+    color: #bf616a;
+    font-size: f(28);
+    // font-weight: normal;
+    margin-right: w(55);
+  }
+
+  .memory-icon {
+    color: #a3be8c;
+    font-size: f(28);
+    // font-weight: normal;
+    margin-right: w(55);
+  }
+
+  .bright-icon {
+    color: #ebcb8b;
+    font-size: f(28);
+    // font-weight: normal;
+    margin-right: w(55);
+  }
+
+  .battery-icon {
+    color: #88c0d0;
+    font-size: f(28);
+    // font-weight: normal;
+    margin-right: w(55);
+  }
+
+  .cpu-bar trough,
+  .memory-bar trough,
+  .bright-bar trough,
+  .battery-bar trough {
+    // all: unset;
+    background-color: #3a404c;
+    min-height: h(20);
+    margin-left: w(-60);
+    border-radius: f(30);
+  }
+
+  .cpu-bar progress,
+  highlight {
+    border-radius: f(10);
+    background-color: #bf616a;
+    min-height: h(20);
+  }
+
+  .memory-bar progress,
+  highlight {
+    border-radius: f(10);
+    background-color: #a3be8c;
+    min-height: h(20);
+  }
+
+  .bright-bar progress,
+  highlight {
+    border-radius: f(10);
+    background-color: #ebcb8b;
+    min-height: h(20);
+  }
+
+  .battery-bar progress,
+  highlight {
+    border-radius: f(10);
+    background-color: #88c0d0;
+    min-height: h(20);
+  }
+
+  .middle-holder-one {
+    margin-bottom: h(45);
+  }
+
+  .time-box {
+    margin-right: w(75);
+  }
+
+  .time-one {
+    background: $menu-theme;
+    border-radius: f(15);
+  }
+
+  .time-hour {
+    font-weight: bold;
+    font-size: f(50);
+    color: #81a1c1;
+    margin-right: w(-20);
+    margin-top: h(5);
+  }
+
+  .time-minute {
+    font-weight: bold;
+    font-size: f(50);
+    color: #81a1c1;
+    margin-left: w(-20);
+    margin-bottom: h(5);
+  }
+
+  .time-mer {
+    color: #a3be8c;
+    font-weight: bold;
+    font-size: f(30);
+    margin-right: w(20);
+    margin-top: h(10);
+  }
+
+  .time-day {
+    color: #ebcb8b;
+    font-size: f(20);
+    margin-bottom: h(10);
+    margin-right: w(20);
+  }
+
+  .time-two {
+    background: $menu-theme;
+    border-radius: f(15);
+  }
+
+  .timer {
+    color: #b48ead;
+    font-size: f(60);
+    font-weight: normal;
+    margin-left: w(-10);
+  }
+
+  .uptime-holder {
+    margin-top: h(18);
+    margin-left: w(-60);
+  }
+
+  .uptime-hours {
+    color: #e5e9f0;
+    font-size: f(32);
+    font-weight: bold;
+    margin-left: w(-10);
+  }
+
+  .uptime-minutes {
+    color: #e5e9f0;
+    font-size: f(24);
+    font-weight: bold;
+    margin-top: h(8);
+  }
+
+  .temperature-box {
+    background: $menu-theme;
+    margin-left: w(-60);
+    border-radius: f(15);
+  }
+
+  .weather-icon {
+    font-size: f(80);
+    font-weight: normal;
+    margin-top: h(15);
+    margin-left: w(30);
+  }
+
+  .label-temperature {
+    color: #a6d1dd;
+    font-size: f(50);
+    font-weight: bold;
+    margin-top: h(-15);
+    margin-right: w(30);
+  }
+
+  .label-stat {
+    color: #bf616a;
+    font-size: f(28);
+    font-weight: bold;
+    margin-top: h(8);
+  }
+
+  .label-quote {
+    color: #e5e5e5;
+    font-size: f(15);
+    font-weight: normal;
+  }
+
+  .middle-holder-two {
+    margin-top: h(-30);
+  }
+
+  .music-pages {
+    // background: palevioletred;
+    margin-right: w(-100);
+  }
+
+  .music-box {
+    background: $menu-theme;
+    margin-bottom: h(-45);
+    border-radius: f(15);
+  }
+
+  .music-picture {
+    background-size: cover; // w(186)
+    border-radius: f(12);
+    background-position: center;
+    background-color: $menu-main;
+    margin-top: h(10);
+    margin-left: w(10);
+    margin-bottom: h(10);
+    margin-right: w(40);
+  }
+
+  .music-control {
+    margin-left: w(-30);
+    margin-right: w(10);
+    margin-top: h(20);
+    margin-bottom: h(12.5);
+  }
+
+  .song-name {
+    color: #8fbcbb;
+    font-size: f(20);
+    font-weight: bold;
+  }
+
+  .singer {
+    color: #ebcb8b;
+    font-size: f(12);
+    margin-top: h(-20);
+  }
+
+  .music-buttons {
+    padding-left: w(30);
+    padding-right: w(30);
+    margin-top: h(-12);
+    margin-bottom: h(-6);
+  }
+
+  .music-move {
+    color: #ebcb8b;
+    font-size: f(26);
+  }
+
+  .music-play {
+    color: #a3be8c;
+    font-size: f(44);
+    margin-right: w(-14);
+  }
+
+  .music-scale trough {
+    all: unset;
+    // background: #b48ead;
+    background-color: #3a404c;
+    border-radius: f(30);
+    margin-top: h(20);
+    min-height: h(20);
+  }
+
+  .music-scale progress,
+  highlight {
+    all: unset;
+    border-radius: f(10);
+    background-color: #b48ead;
+    min-height: h(20);
+  }
+
+  .web-box {
+    margin-top: h(60);
+    border-radius: f(15);
+  }
+
+  .git-hub-page {
+    background: #171515;
+    border-radius: f(15);
+    padding-left: w(20);
+    font-size: f(50);
+  }
+
+  .reddit-page {
+    background: #ff4500;
+    border-radius: f(15);
+    padding-left: w(10);
+    font-size: f(44);
+  }
+
+  .twitch-page {
+    background: #6441a4;
+    border-radius: f(15);
+    padding-left: w(18);
+    font-size: f(40);
+  }
+
+  .youtube-page {
+    background: #ff0000;
+    border-radius: f(15);
+    padding-left: w(20);
+    font-size: f(50);
+  }
+
+  .search-pages {
+    // background: sienna;
+    margin-left: w(115);
+  }
+
+  .mail-box {
+    background: white;
+    margin-bottom: h(75);
+    border-radius: f(15);
+  }
+
+  .mail-icon {
+    font-size: f(52);
+    color: red;
+    margin-left: w(48);
+  }
+
+  .mail-amount {
+    background: #e5e5e9;
+    font-size: f(30);
+    border-radius: f(4);
+    color: black;
+    margin-top: h(25);
+    margin-bottom: h(25);
+    margin-right: w(50);
+  }
+
+  .app-box {
+    background: $menu-theme;
+    margin-top: h(-60);
+    border-radius: f(15);
+  }
+
+  .app-holder-box {
+    margin-top: h(20);
+    margin-bottom: h(20);
+    margin-left: w(20);
+    margin-right: w(20);
+  }
+
+  .app {
+    border-radius: 100%;
+    background-size: f(47);
+  }
+
+  .libre-app {
+    background-size: f(45);
+  }
+
+  .league-app {
+    background-size: f(47);
+  }
+
+  .music-app {
+    background-size: f(50);
+  }
+
+  .thunderbird-app {
+    background-size: f(47);
+  }
+
+  .power-menu {
+    // background: tan;
+    margin-bottom: h(45);
+    border-radius: f(15);
+  }
+
+  // .powerBoxParent {
+  //   background: brown;
+  // }
+
+  .log-out-box {
+    color: #bf616a;
+    font-size: f(42);
+    font-weight: bold;
+    background: $menu-theme;
+    border-radius: f(15);
+    padding-left: w(26);
+  }
+
+  .power-box {
+    color: #88c0d0;
+    font-size: f(50);
+    font-weight: bold;
+    background: $menu-theme;
+    border-radius: f(15);
+    padding-left: w(32);
+  }
+
+  .reboot-box {
+    color: #ebcb8b;
+    font-size: f(44);
+    font-weight: bold;
+    background: $menu-theme;
+    border-radius: f(15);
+    padding-left: w(24);
+  }
+
+  .sleep-box {
+    color: #a3be8c;
+    font-size: f(42);
+    font-weight: bold;
+    background: $menu-theme;
+    border-radius: f(15);
+    padding-left: w(26);
+  }
+
+  .pages {
+    background: $menu-theme;
+    margin-top: h(-30);
+    border-radius: f(15);
+  }
+
+  .disk-box {
+    background: #3a404c;
+    border-radius: f(10);
+    margin-top: h(10);
+    margin-right: w(10);
+    margin-left: w(10);
+    margin-bottom: h(45);
+  }
+
+  .disk-holder {
+    margin-left: w(30);
+  }
+
+  .disk-icon {
+    color: #81a1c1;
+    font-size: f(60);
+  }
+
+  .disk-separator {
+    color: $menu-theme;
+    font-size: f(30);
+  }
+
+  .free-space {
+    color: #e5e9f0;
+    font-size: f(30);
+    margin-left: w(-30);
+    font-weight: bold;
+  }
+
+  .folders {
+    margin-left: w(64);
+    margin-top: h(-34);
+    margin-bottom: h(10);
+  }
+
+  .folder {
+    font-size: f(15);
+  }
+
+  .icon-folder {
+    font-size: f(22);
+  }
+
+  .folder-one {
+    color: #bf616a;
+  }
+
+  .folder-two {
+    color: #a3be8c;
+  }
+
+  .folder-three {
+    color: #ebcb8b;
+  }
+
+  .folder-four {
+    color: #81a1c1;
+  }
+
+  .folder-five {
+    color: #b48ead;
+  }
+
+  .folder-six {
+    color: #88c0d0;
+  }
+}

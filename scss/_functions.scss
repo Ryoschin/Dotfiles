@@ -1,0 +1,11 @@
+@function w($value) {
+  @return (($width * $value) / 1366) * 1px;
+}
+
+@function h($value) {
+  @return (($height * $value) / 768) * 1px;
+}
+
+@function f($value) {
+  @return (($full * $value) / 1049088) * 1px;
+}
